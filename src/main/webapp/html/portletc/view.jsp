@@ -8,9 +8,9 @@
 
 <%
 	Persona persona = (Persona) request.getAttribute("persona");
-	String nombre = "";
-	String direccion = "";
-	String telefono = "";
+	String nombre = "Nombre";
+	String direccion = "Direccion";
+	String telefono = "Telefono";
 
 	if (persona != null) {
 		nombre = persona.getNombre();
